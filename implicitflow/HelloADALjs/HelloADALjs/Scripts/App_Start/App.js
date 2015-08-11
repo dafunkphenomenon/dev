@@ -8,12 +8,12 @@ myApp.config(["$routeProvider", "$httpProvider", "adalAuthenticationServiceProvi
 
         //Initialize ADAL
         adalProvider.init({
-            tenant: "[tenancy].onmicrosoft.com",
-            clientId: "[clientid]",
+            tenant: "oozoo.onmicrosoft.com",
+            clientId: "7ca6b0c5-3ef4-4a01-87db-018347c17a9d",
             cacheLocation: "localStorage",
             endpoints: {
-                'https://[tenancy].sharepoint.com/_api/': 'https://[tenancy].sharepoint.com',
-                'https://[tenancy]-my.sharepoint.com/_api/v1.0/me': 'https://[tenancy]-my.sharepoint.com'
+                'https://oozoo.sharepoint.com/_api/': 'https://oozoo.sharepoint.com',
+                'https://oozoo-my.sharepoint.com/_api/v1.0/me': 'https://oozoo-my.sharepoint.com'
              }
         }, $httpProvider);
 

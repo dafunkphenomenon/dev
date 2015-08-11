@@ -14,7 +14,7 @@
 
 
         $http({
-            url: "https://[tenancy]-my.sharepoint.com/_api/v1.0/me/files",
+            url: "https://oozoo-my.sharepoint.com/_api/v1.0/me/files",
             params: {
                 "$select": "id,name,lastModifiedBy,size,webUrl"
             },
