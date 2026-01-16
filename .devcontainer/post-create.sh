@@ -32,7 +32,7 @@ echo "npm Version:"
 npm --version
 echo ""
 echo "SQL Server tools are available via:"
-echo "  - sqlcmd (use -S localhost -U sa -P YourStrong@Passw0rd)"
+echo "  - sqlcmd (use -S localhost -U sa -P YourStrong@Passw0rd -C)"
 echo ""
 echo "Global .NET Tools installed:"
 dotnet tool list -g

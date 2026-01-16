@@ -56,7 +56,7 @@ node --version
 # Should show v20.x.x
 
 # Check SQL Server connection
-sqlcmd -S localhost -U sa -P YourStrong@Passw0rd -Q "SELECT @@VERSION"
+sqlcmd -S localhost -U sa -P YourStrong@Passw0rd -C -Q "SELECT @@VERSION"
 # Should connect and show SQL Server 2022 version
 ```
 

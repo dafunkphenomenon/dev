@@ -8,8 +8,6 @@ obj/
 *.exe
 *.pdb
 *.log
-*.suo
-*.user
 *.userosscache
 *.sln.docstates
 *.userprefs
@@ -37,9 +35,6 @@ bld/
 
 # User-specific files
 *.rsuser
-*.suo
-*.user
-*.userosscache
 *.sln.docstates
 
 # Mono auto generated files
