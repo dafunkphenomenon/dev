@@ -1,0 +1,27 @@
+# Docker Compose Override Example
+# 
+# Copy this file to docker-compose.override.yml and customize as needed.
+# The override file is gitignored and won't be committed.
+#
+# Example customizations:
+
+# version: '3.8'
+# 
+# services:
+#   app:
+#     # Add custom environment variables
+#     environment:
+#       - MY_CUSTOM_VAR=value
+#     
+#     # Mount additional volumes
+#     volumes:
+#       - ~/.azure:/home/vscode/.azure:cached
+#   
+#   db:
+#     # Change SQL Server port
+#     ports:
+#       - "1434:1433"
+#     
+#     # Use different SA password
+#     environment:
+#       - SA_PASSWORD=MySecurePassword123!
